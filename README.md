@@ -7,9 +7,11 @@ At a certain point you may have wished to post maps of the county by county dist
 We will describe:
 <ol type="1">
 	<li>where you can get files and data</li>
-		- Hopkins novel coronavirus data
-		- arcgis map coordinates 
-		- creation of html files
+	<ol type="a">
+		<li>Hopkins novel coronavirus data</li>
+		<li>arcgis map coordinates</li>
+		<li>creation of html files</li>
+	</ol>
 	<li>measures you can create on your own</li>
 </ol>
 
