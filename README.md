@@ -2,19 +2,15 @@
 ### COVID distribution by counties in the USA
 
 
-At a certain point you may have wished to post maps of the county by county distribution of SARS-CoV-2.  It may have seemed like an easy task.  Obtain the lat/lon values for maps from ????, obtain the latest COVID-19 data from the Hopkins Hospital site, and post the results as html files.  Anyone who has tried this discovers you must always be connected to the Internet using someone else's software that may or may not work.    
+At a certain point you may have wished to post maps of the county by county distribution of SARS-CoV-2.  It may have seemed like an easy task.  Obtain the lat/lon values for maps from https://www.arcgis.com/home/, obtain the latest COVID-19 data from https://github.com/CSSEGISandData/COVID-19, and post the results as html files.  What could be simpler?  Anyone who has tried this discovers you must always be connected to the Internet and you must always use someone's software that might not do what you want it to do.      
 
 We will describe:
 <ol type="1">
-	<li>different kinds of data used for illustration</li>
-		- classic Iris data (3x3x4)
-		- oil patch data (3x3x4)
-		- wealth of nations (7x7)
-	<li>measures of distance and interpretation</li>
-	<li>dimensions and interpretations of dimensions</li>
-	<li>observing the changes in assignment of objects to segments</li>
-	<li>a Python program which provides a basis for modifying data sources, measures of distance, and number of dimensions</li>
-	<li>an interpretation of results</li>
+	<li>where you can get files and data</li>
+		- Hopkins novel coronavirus data
+		- arcgis map coordinates 
+		- techniques to create the html files
+	<li>measures you can create on your own</li>
 </ol>
 
 There are three examples of outcomes from the use of SOM below.  It's worth examining these results and discussing them to see the utility of these kinds of segmentation.  
