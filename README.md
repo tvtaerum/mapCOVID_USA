@@ -1,8 +1,6 @@
-# mapCOVID_USA
-COVID distribution by counties
-# Self Organizing Maps (SOM): segmenting data
+# Map COVID USA
+### COVID distribution by counties in the USA
 
-### Self organizing maps segmenting Iris data, oil patch descriptions, and national wealth by features.      
 
 An useful application of SOM is to organize objects by similarity of features.  Once objects are organized by similarity of features, we are able to make interpretations based on dimensions, distance, and display.  While most applications focus on segmentation, we are also able to interpret results based on dimensions as well as distance/location.  We also illustrate how Python libraries may be used to present changes in segment membership as we approach a solution.     
 
@@ -28,25 +26,12 @@ For this matrix, I provide background colors and textual displays within each ce
 In doing segmentation, I generally prefer SOM over G-means.  In my experience, G-means has a tendency to produce few groups which have a very uneven distribution of objects.  As an example, there might be 2% in one group 5% in a second, and 93% in a third group.  While 3 groups might be reasonable for the classic Iris data, the display of SOM provides an interpretable basis for deciding if any particular number of groups is really the best.  Beyond this, using multi-dimensional SOM allows for interpretation of dimensions.  
 
 <p align="center">
-<img src="/images/Simplex3x3x4_iris_Data.jpg" width="400" height="450">
+<img src="/images/COVID_1202020.jpg" width="400" height="450">
 </p>
 
-The second segmentation illustrates results for oil patch data from around the world.  In contrast to the previous table, the colors are more intense reflecting the fact that the dimensions are more independent of one another.  On the left we have a summary of oil patches and their position in the matrix. At the bottom are the four most important measures:  downhole pump, pipeline, water injection, and development intensity.  
 
 <p align="center">
-<img src="/images/Simplex3x3x4_oilPatch.jpg" width="400" height="450">
-</p>
-
-Next, we observe the results for the classic SOM analysis of national wealth.  For this we use a 7 by 7 matrix linked with a map of the world. What is unique about this solution is we are able to observe the iterations to solution on both the matrix and the map at the same time using libraries available in Python.  It's important to note that there are multiple solutions when grouping objects and it's possible that investigators may obtain insights by watching the convergence to a solution.  
-
-<p align="center">
-<img src="/images/SelfOrganizing_42_120.jpg" width="400" height="200">
-</p>
-
-The convergence displayed below generally fits with other classifications of nations.    
-
-<p align="center">
-<img src="/images/SelfOrganizing_120_120.jpg" width="500" height="300">
+<img src="/images/COVID_12182020.jpg" width="500" height="300">
 </p>
 
 While we quickly recognize if a face is typical f
