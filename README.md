@@ -9,7 +9,7 @@ We will describe:
 	<li>where you can get files and data</li>
 		- Hopkins novel coronavirus data
 		- arcgis map coordinates 
-		- techniques to create the html files
+		- creation of html files
 	<li>measures you can create on your own</li>
 </ol>
 
