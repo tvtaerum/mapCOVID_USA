@@ -26,12 +26,12 @@ For this matrix, I provide background colors and textual displays within each ce
 In doing segmentation, I generally prefer SOM over G-means.  In my experience, G-means has a tendency to produce few groups which have a very uneven distribution of objects.  As an example, there might be 2% in one group 5% in a second, and 93% in a third group.  While 3 groups might be reasonable for the classic Iris data, the display of SOM provides an interpretable basis for deciding if any particular number of groups is really the best.  Beyond this, using multi-dimensional SOM allows for interpretation of dimensions.  
 
 <p align="center">
-<img src="/images/COVID_12042020.jpg" width="400" height="450">
+<img src="/images/COVID_12042020.jpg" width="500" height="350">
 </p>
 
 
 <p align="center">
-<img src="/images/COVID_12182020.jpg" width="500" height="300">
+<img src="/images/COVID_12182020.jpg" width="500" height="350">
 </p>
 
 While we quickly recognize if a face is typical f
