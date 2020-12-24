@@ -2,7 +2,7 @@
 ### COVID distribution by counties in the USA
 
 
-An useful application of SOM is to organize objects by similarity of features.  Once objects are organized by similarity of features, we are able to make interpretations based on dimensions, distance, and display.  While most applications focus on segmentation, we are also able to interpret results based on dimensions as well as distance/location.  We also illustrate how Python libraries may be used to present changes in segment membership as we approach a solution.     
+At a certain point you may have wished to post maps of the county by county distribution of SARS-CoV-2.  It may have seemed like an easy task.  Obtain the lat/lon values for maps from ????, obtain the latest COVID-19 data from the Hopkins Hospital site, and post the results as html files.  Anyone who has tried this discovers you must always be connected to the Internet using someone else's software that may or may not work.    
 
 We will describe:
 <ol type="1">
@@ -26,7 +26,7 @@ For this matrix, I provide background colors and textual displays within each ce
 In doing segmentation, I generally prefer SOM over G-means.  In my experience, G-means has a tendency to produce few groups which have a very uneven distribution of objects.  As an example, there might be 2% in one group 5% in a second, and 93% in a third group.  While 3 groups might be reasonable for the classic Iris data, the display of SOM provides an interpretable basis for deciding if any particular number of groups is really the best.  Beyond this, using multi-dimensional SOM allows for interpretation of dimensions.  
 
 <p align="center">
-<img src="/images/COVID_1202020.jpg" width="400" height="450">
+<img src="/images/COVID_12042020.jpg" width="400" height="450">
 </p>
 
 
