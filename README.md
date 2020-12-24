@@ -2,12 +2,13 @@
 ### COVID distribution by counties in the USA
 
 
-At a certain point you may have wished to post maps of the county by county distribution of SARS-CoV-2.  It may have seemed like an easy task.  Create shape files for U.S. counties from https://www.arcgis.com/home/, decorate with detailed informations such as waterbodies from https://hub.arcgis.com/datasets/esri::usa-detailed-water-bodies, get the latest COVID-19 data from https://github.com/CSSEGISandData/COVID-19, download the latest census information from https://www2.census.gov/geo/tiger/TIGER2019/ in order to adjust data for populations density, add additional information about landmarks from https://hub.arcgis.com/datasets/esri::usa-detailed-water-bodies, and transform the results as html files.  What could be easier?  Yes, there are sites on the Internet which will do this for you for free (although you are given hundreds of opportunties to sign up with money).  However, you must always be connected to the Internet and you must always use someone's software that might not do what you want it to do.  So, you want to do this on your own?  
+At a certain point you may wish to post maps of the county by county distribution of SARS-CoV-2.  It may have seemed like an easy task.  Create shape files for U.S. counties from https://www.arcgis.com/home/, decorate with detailed informations such as waterbodies from https://hub.arcgis.com/datasets/esri::usa-detailed-water-bodies, get the latest COVID-19 data from https://github.com/CSSEGISandData/COVID-19, download the latest census information from https://www2.census.gov/geo/tiger/TIGER2019/ in order to adjust data for information such as populations density, add additional information about landmarks from https://hub.arcgis.com/datasets/esri::usa-detailed-water-bodies, and transform the results to html files.  What could be easier?  Yes, there are sites on the Internet which will do this for you for free (although you are given hundreds of opportunties to sign up and contribute money).  For this to work, you must always be connected to the Internet and you must always use someone's software that might not do what you want it to do.  What if you want to do this on your own?  
 
 We will describe:<ol type="1">
 	<li>where you can get files and data</li>
 	<ol type="a">
-		<li>Hopkins novel coronavirus data</li>
+		<li>Everything that's free:  https://freegisdata.rtwilson.com/</li>
+		<li>Hopkins novel coronavirus data:  https://github.com/CSSEGISandData/COVID-19</li>
 		<li>arcgis map coordinates</li>
 		<li>add additional information about landmarks</li>
 		<li>census information
