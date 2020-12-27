@@ -37,7 +37,7 @@ In doing segmentation, I generally prefer SOM over G-means.  In my experience, G
 </p>
 
 <p align="center">
-<img src="/images/AZ_zipcode_COVID.jpg" width="500" height="350">
+<img src="/images/AZ_zipcode_COVID.jpg" width="350" height="350">
 </p>
 
 While we quickly recognize if a face is typical f
