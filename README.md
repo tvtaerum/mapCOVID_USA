@@ -1,8 +1,8 @@
 # Map COVID USA
-### COVID distribution by counties in the USA
+### COVID distribution by counties in the USA or by zip code within Arizona
 
 
-At a certain point you may wish to post maps of the county by county distribution of SARS-CoV-2.  It may have seemed like an easy task.  Create shape files for U.S. counties from https://www.arcgis.com/home/ and https://www2.census.gov/geo/tiger/TIGER2019/COUNTY/, decorate with detailed informations such as waterbodies from https://hub.arcgis.com/datasets/esri::usa-detailed-water-bodies, get the latest COVID-19 data from https://github.com/CSSEGISandData/COVID-19, download census information from https://www2.census.gov/geo/tiger/TIGER2019/ in order to adjust data for information such as populations density, add additional information about landmarks from https://hub.arcgis.com/datasets/esri::usa-detailed-water-bodies, and transform the results to html files.  What could be easier?  
+At a certain point you may wish to post maps of the county by county distribution of SARS-CoV-2 or by zip code within particular states.  It may have seemed like an easy task.  Create shape files for U.S. counties from https://www.arcgis.com/home/ and https://www2.census.gov/geo/tiger/TIGER2019/COUNTY/, decorate with detailed informations such as waterbodies from https://hub.arcgis.com/datasets/esri::usa-detailed-water-bodies, get the latest COVID-19 data from https://github.com/CSSEGISandData/COVID-19, download census information from https://www2.census.gov/geo/tiger/TIGER2019/ in order to adjust data for information such as populations density, add additional information about landmarks from https://hub.arcgis.com/datasets/esri::usa-detailed-water-bodies, and transform the results to html files.  What could be easier?  
 
 In point of fact, there are few things more difficult.  Files for census information appear and disappear like ghosts in the night.  Shape files have difficult to find errors in them.  The format for files containing COVID-19 data changes depending on where cases are found and the preferences of each state.  Providers which promise to let you use their code for "free", constantly pester you to pay.  Code that is supposed to work when you are offline is tempermental and rarely works as promised.  Much of the advice provided is out of date and for older versions of software and data sources.  
 
@@ -34,6 +34,10 @@ In doing segmentation, I generally prefer SOM over G-means.  In my experience, G
 
 <p align="center">
 <img src="/images/COVID_12182020.jpg" width="500" height="350">
+</p>
+
+<p align="center">
+<img src="/images/AZ_zipcode_COVID.jpg" width="500" height="350">
 </p>
 
 While we quickly recognize if a face is typical f
