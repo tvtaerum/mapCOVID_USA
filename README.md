@@ -37,8 +37,8 @@ We will describe:<ol type="1">
 
 	
 |Three weeks ending December 14, 2020                        |Three weeks ending December 28, 2020                          |
-|-----------------------------------------------------------------:|:-----------------------------------------------------------------|
-| <img src="/images/COVID_12142020.jpg" width="400" height="300"> | <img src="/images/COVID_12282020.jpg" width="400" height="300"> |
+|:-----------------------------------------------------------------|:-----------------------------------------------------------------|
+| <img src="/images/COVID_12142020.jpg" width="400" height="280"> | <img src="/images/COVID_12282020.jpg" width="400" height="280"> |
 
 
 <p align="center">
