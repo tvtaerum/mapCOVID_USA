@@ -1,11 +1,11 @@
 
-<style type="text/css" rel="stylesheet">
+`<style type="text/css" rel="stylesheet">
 * { color: red; }
-</style>
+</style>`
 
-<style>
+`<style>
 .red {color: red}
-</style>
+</style>`
 
 <p class="red">red text</p>
 
