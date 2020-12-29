@@ -11,6 +11,12 @@ In point of fact, there are few projects more difficult.  Data for counties and 
 
 There are two requirements to consider here:  data sources and output.  The input files require multiple shapefiles (state/county/zip code/lakes/rivers), labels for the shapefiles, COVID-19 data, and demographic information such as population, income, race/ethnic distributions, and age distributions.  The output files require html code, scripts, and svg code.  
 
+<style>
+.red {color: red}
+</style>
+
+<p class="red">red text</p>
+
 So what might the required tasks be?  Create shape files for U.S. counties, decorate with detailed informations such as waterbodies, get the latest COVID-19 data, download census information, add additional information about counties, and transform the results to html files.  
 
 We will describe:<ol type="1">
