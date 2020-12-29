@@ -3,11 +3,11 @@
 
 In order to do investigations on the distribution of COVID-19, you may wish to create maps, whether by county or by zip code.  Ideally you'd like it to be html files and it ought to allow you to hover your mouse over the county and get additional information.  This may seem like an easy task.  After all, there are many attractive mapping programs available on the Internet, some are "free", there are a few examples for each of the features you might wish to make use of, maybe you're thinking, "I should have something up by next week".  
 
-In point of fact, there are few projects more difficult.  Data for counties appear and disappear like ghosts in the night.  A site that was available a week ago is down for service.  Shape files have difficult to find errors in them (you'll be amazed how many are wrong).  The format for files containing COVID-19 data changes depending on the dates, where cases are found and the preferences of each state.  Providers which promise to let you use their code for "free", constantly ask if you'd like to pay.  Code that is supposed to work when you are offline rarely works.  Much of the advice provided is out of date.  
+In point of fact, there are few projects more difficult.  Data for counties and zipcodes appear and disappear like ghosts in the night.  A site that was available a week ago is down for service.  Shape files have difficult to find errors in them (you'll be amazed how many are wrong).  The format for files containing COVID-19 data changes depending on the dates, where cases are found and the reporting preferences of each state.  Providers which promise to let you use their code for "free", constantly ask if you'd like to pay.  Code that is supposed to work when you are offline rarely works offline.  Much of the advice provided is out of date.  
 
 There are two requirements to consider here:  data sources and output.  The input files require multiple shapefiles (state/county/zip code/lakes/rivers), labels for the shapefiles, COVID-19 data, and demographic information such as population, income, race/ethnic distributions, and age distributions.  The output files require html code, scripts, and svg code.  
 
-So what might the required tasks be?  Create shape files for U.S. counties from https://www.arcgis.com/home/ and https://www2.census.gov/geo/tiger/TIGER2019/COUNTY/, decorate with detailed informations such as waterbodies from https://hub.arcgis.com/datasets/esri::usa-detailed-water-bodies, get the latest COVID-19 data from https://github.com/CSSEGISandData/COVID-19, download census information from https://www2.census.gov/geo/tiger/TIGER2019/ in order to adjust data for information such as populations density, add additional information about landmarks from https://hub.arcgis.com/datasets/esri::usa-detailed-water-bodies, and transform the results to html files.  What could be easier?  
+So what might the required tasks be?  Create shape files for U.S. counties from https://www.arcgis.com/home/ and https://www2.census.gov/geo/tiger/TIGER2019/COUNTY/, decorate with detailed informations such as waterbodies from https://hub.arcgis.com/datasets/esri::usa-detailed-water-bodies, get the latest COVID-19 data from https://github.com/CSSEGISandData/COVID-19, download census information from https://www2.census.gov/geo/tiger/TIGER2019/ in order to adjust data for information such as populations density, add additional information about landmarks from https://hub.arcgis.com/datasets/esri::usa-detailed-water-bodies, and transform the results to html files.  
 
 We will describe:<ol type="1">
 	<li>where you can get files and data</li>
@@ -19,8 +19,17 @@ We will describe:<ol type="1">
 		<li>census information
 		<li>creation of html files</li>
 	</ol>
-	<li>measures you can create on your own</li>
-</ol>
+	<li>how to create your own interactive html file</li>
+	<ol type="a">
+		<li>define objects</li>
+		<li>create mouseOver scripts</li>
+		<li>define getElement scripts</li>
+		<li>define svg positioning scripts</li>
+		<li>define state object polygon shapes and interactions</li>
+		<li>define county object polygon shapes and interactions</li>
+		<li> define lake object polygon shapes and interactions</li>
+		<li> define river path shapes and interactions</li>
+	</ol>
 
 There are three examples of outcomes from the use of SOM below.  It's worth examining these results and discussing them to see the utility of these kinds of segmentation.  
 
