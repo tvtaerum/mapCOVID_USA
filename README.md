@@ -35,8 +35,8 @@ We will describe:<ol type="1">
 	</ol>
 
 <p align="center">
-<img src="/images/COVID_12042020.jpg" width="500" height="350">
-<img src="/images/COVID_12182020.jpg" width="500" height="350">
+<img src="/images/COVID_12042020.jpg" width="400" height="300">
+<img src="/images/COVID_12182020.jpg" width="400" height="300">
 </p>
 
 
