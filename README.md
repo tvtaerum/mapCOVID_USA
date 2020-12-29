@@ -42,7 +42,8 @@ We will describe:<ol type="1">
 
 
 <p align="center">
-<img src="/images/AZ_zipcode_COVID.jpg" width="350" height="350">
+	####Arizona COVID-19 ending 
+	<img src="/images/AZ_zipcode_COVID.jpg" width="350" height="350">
 </p>
 
 
