@@ -2,11 +2,9 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-from mpl_toolkits.axes_grid1 import make_axes_locatable
 import geopandas as gpd
 import shapely
 import math
-from random import randint
 import sys
 
 qZip=True
