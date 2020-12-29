@@ -2,21 +2,19 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-from mpl_toolkits.axes_grid1 import make_axes_locatable
 import geopandas as gpd
 import shapely
 import math
-from random import randint
 import sys, os
 
 riverSegMiles = 5.0
 qZip=True
 qTextSave = False
 qLimit = False
-strFileCovidNew = '11-25-2020.csv'
-# strFileCovidNew = '12-09-2020.csv'
-strFileCovidOld = '11-04-2020.csv'
-# strFileCovidOld = '11-18-2020.csv'
+strFileCovidNew = '12-04-2020.csv'
+strFileCovidNew = '12-25-2020.csv'
+strFileCovidOld = '11-13-2020.csv'
+strFileCovidOld = '12-04-2020.csv'
 minIndicator = 0.0
 maxIndicator = 0.0
 # maxIndicator = 2.6332548132452
