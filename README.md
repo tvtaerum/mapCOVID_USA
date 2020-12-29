@@ -34,10 +34,12 @@ We will describe:<ol type="1">
 		<li> define river path shapes and interactions</li>
 	</ol>
 
-<script>
-.column {  float: left;  width: 50.00%;  padding: 5px;}
-.row::after {  content: "";  clear: both;  display: table;}
-</script>
+<head>
+<style>
+column {  float: left;  width: 50.00%;  padding: 5px;}
+row::after {  content: "";  clear: both;  display: table;}
+</style>
+</head>
 
 <div class="row">
   <div class="column">
