@@ -36,9 +36,9 @@ We will describe:<ol type="1">
 
 <p align="center">
 	
-|  Three weeks beginning December 12, 2020                        |Three weeks beginning December 18, 2020                          |
-:|-----------------------------------------------------------------|-----------------------------------------------------------------|:
-| <img src="/images/COVID_12042020.jpg" width="400" height="300"> | <img src="/images/COVID_12182020.jpg" width="400" height="300"> |
+||  Three weeks beginning December 12, 2020                        |Three weeks beginning December 18, 2020                          ||
+|:|-----------------------------------------------------------------|-----------------------------------------------------------------|:|
+|| <img src="/images/COVID_12042020.jpg" width="400" height="300"> | <img src="/images/COVID_12182020.jpg" width="400" height="300"> ||
 
 </p>
 
