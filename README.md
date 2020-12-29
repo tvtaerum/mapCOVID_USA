@@ -1,14 +1,3 @@
-
-`<style type="text/css" rel="stylesheet">
-* { color: red; }
-</style>`
-
-`<style>
-.red {color: red}
-</style>`
-
-<p class="red">red text</p>
-
 # Map COVID USA
 ### COVID distribution by counties in the USA or by zip code within Arizona
 
