@@ -34,18 +34,10 @@ We will describe:<ol type="1">
 		<li> define river path shapes and interactions</li>
 	</ol>
 
-
-.column {
-  float: left;
-  width: 50.00%;
-  padding: 5px;
-}
-
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
+<script>
+.column {  float: left;  width: 50.00%;  padding: 5px;}
+.row::after {  content: "";  clear: both;  display: table;}
+</script>
 
 <div class="row">
   <div class="column">
@@ -56,6 +48,10 @@ We will describe:<ol type="1">
   </div>
 </div>
 
+<p align="center">
+<img src="/images/COVID_12042020.jpg" width="400" height="300">
+<img src="/images/COVID_12182020.jpg" width="400" height="300">
+</p>
 
 <p align="center">
 <img src="/images/AZ_zipcode_COVID.jpg" width="350" height="350">
