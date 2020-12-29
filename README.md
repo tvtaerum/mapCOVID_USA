@@ -41,11 +41,9 @@ We will describe:<ol type="1">
 | <img src="/images/COVID_12142020.jpg" width="400" height="280"> | <img src="/images/COVID_12282020.jpg" width="400" height="280"> |
 
 
-<p align="center">
-	<b>Arizona COVID-19 ending</b>
-	<nl><img src="/images/AZ_zipcode_COVID.jpg" width="350" height="350">
-</p>
-
+|Arizona COVID-19 ending July 12, 2020   |
+|----------------------------------------|
+|<img src="/images/AZ_zipcode_COVID.jpg" width="350" height="350">|
 
 ### Motivation for identifying differences between xrays of healthy lungs and those with pneumonia:
 Considerable effort has been applied to building neural nets to discriminate between patients who are healthy and those patients with pneumonia based on x-rays.  An avenue which 
