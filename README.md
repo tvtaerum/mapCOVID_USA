@@ -35,9 +35,9 @@ We will describe:<ol type="1">
 	</ol>
 
 <p align="center">
-<figure class="half" style="display:flex">
-<img src="/images/COVID_12042020.jpg" width="400" height="300">
-<img src="/images/COVID_12182020.jpg" width="400" height="300">
+<figure style="display:flex">
+<img src="/images/COVID_12042020.jpg" width="500" height="350">
+<img src="/images/COVID_12182020.jpg" width="500" height="350">
 	    <figcaption>Caption describing these two images.</figcaption>
 </figure>
 </p>
