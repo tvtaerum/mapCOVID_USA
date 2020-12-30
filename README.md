@@ -101,7 +101,7 @@ We will describe:<ol type="1">
 
 |svg initialization function   |
 |----------------------------------------|
-|<img src="/images/svgInitializeArraysOnLoad.jpg" width="300" height="30">|
+|<img src="/images/svgInitializeArraysOnLoad.jpg" width="300" height="20">|
 
 
 ### Motivation for identifying differences between xrays of healthy lungs and those with pneumonia:
