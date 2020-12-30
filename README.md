@@ -58,7 +58,7 @@ We will describe:<ol type="1">
 
 |Styles to create Objects and initial properties|
 |----------------------------------------|
-|<img src="/images/scriptToDefineObjects.jpg" width="350" height="200">|
+|<img src="/images/stylesToDefineObjects.jpg" width="350" height="200">|
 
 
 |Script to handle Mouse hovering   |
@@ -95,9 +95,9 @@ We will describe:<ol type="1">
 |<img src="/images/scriptToDefineArrays.jpg" width="350" height="100"
 
 
-|Scripts to raise or lower Objects so they can be seen or hidden   |
+|Script to raise or lower Objects so they can be seen or hidden   |
 |----------------------------------------|
-|<img src="/images/scriptsToRaiseOrLowerPolygon.jpg" width="350" height="100">|
+|<img src="/images/scriptToRaiseOrLowerPolygon.jpg" width="350" height="100">|
 
 |svg initialization function   |
 |----------------------------------------|
