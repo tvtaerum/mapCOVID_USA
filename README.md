@@ -60,8 +60,7 @@ We will describe:<ol type="1">
 |<img src="/images/styleToDefineObjects.jpg" width="350" height="200">|
 
 
-
-> <html><head><style>
+<span style="font-size:1em;">
 >#state54 {stroke-width:1; stroke:purple; fill:rgba(195,195,195,1.0);}#state54:hover {stroke-width:1; stroke:purple; fill:rgba(0,255,255,1.0);}
 >#state12 {stroke-width:1; stroke:purple; fill:rgba(195,195,195,1.0);}#state12:hover {stroke-width:1; stroke:purple; fill:rgba(0,255,255,1.0);}
 >#state17 {stroke-width:1; stroke:purple; fill:rgba(195,195,195,1.0);}#state17:hover {stroke-width:1; stroke:purple; fill:rgba(0,255,255,1.0);}
@@ -80,7 +79,7 @@ We will describe:<ol type="1">
 >#rivers27595 {stroke-width:1; stroke:purple; fill:rgba(140,140,140,1.0);}#rivers27595:hover {stroke-width:1; stroke:red; fill:rgba(0,255,255,1.0);}
 >#rivers26226 {stroke-width:1; stroke:purple; fill:rgba(140,140,140,1.0);}#rivers26226:hover {stroke-width:1; stroke:red; fill:rgba(0,255,255,1.0);}
 >...
-></style></head>
+</span>
 
 
 |Script to handle Mouse hovering   |
