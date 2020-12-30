@@ -60,25 +60,25 @@ We will describe:<ol type="1">
 |<img src="/images/styleToDefineObjects.jpg" width="350" height="200">|
 
 
-<span style="font-size:1em;">
-<nl>#state54 {stroke-width:1; stroke:purple; fill:rgba(195,195,195,1.0);}#state54:hover {stroke-width:1; stroke:purple; fill:rgba(0,255,255,1.0);}
-<nl>#state12 {stroke-width:1; stroke:purple; fill:rgba(195,195,195,1.0);}#state12:hover {stroke-width:1; stroke:purple; fill:rgba(0,255,255,1.0);}
-<nl>#state17 {stroke-width:1; stroke:purple; fill:rgba(195,195,195,1.0);}#state17:hover {stroke-width:1; stroke:purple; fill:rgba(0,255,255,1.0);}
-<nl>#state27 {stroke-width:1; stroke:purple; fill:rgba(195,195,195,1.0);}#state27:hover {stroke-width:1; stroke:purple; fill:rgba(0,255,255,1.0);}
-<nl>...
-<nl>#county1001 {stroke-width:1; stroke:purple; fill:rgba(144,190,25,1.0);}#county1001:hover {stroke-width:1; stroke:purple; fill:rgba(0,255,255,1.0);}
-<nl>#county1003 {stroke-width:1; stroke:purple; fill:rgba(132,199,25,1.0);}#county1003:hover {stroke-width:1; stroke:purple; fill:rgba(0,255,255,1.0);}
-<nl>#county1005 {stroke-width:1; stroke:purple; fill:rgba(108,218,25,1.0);}#county1005:hover {stroke-width:1; stroke:purple; fill:rgba(0,255,255,1.0);}
-<nl>#county1007 {stroke-width:1; stroke:purple; fill:rgba(149,185,25,1.0);}#county1007:hover {stroke-width:1; stroke:purple; fill:rgba(0,255,255,1.0);}
-<nl>...
-<nl>#lakes30179 {stroke-width:1; stroke:purple; fill:rgba(140,140,140,1.0);}#lakes30179:hover {stroke-width:1; stroke:purple; fill:rgba(0,255,255,1.0);}
-<nl>#lakes29934 {stroke-width:1; stroke:purple; fill:rgba(140,140,140,1.0);}#lakes29934:hover {stroke-width:1; stroke:purple; fill:rgba(0,255,255,1.0);}
-<nl>#lakes281073 {stroke-width:1; stroke:purple; fill:rgba(140,140,140,1.0);}#lakes281073:hover {stroke-width:1; stroke:purple; fill:rgba(0,255,255,1.0);}
-<nl>...
-<nl>#rivers26838 {stroke-width:1; stroke:purple; fill:rgba(140,140,140,1.0);}#rivers26838:hover {stroke-width:1; stroke:red; fill:rgba(0,255,255,1.0);}
-<nl>#rivers27595 {stroke-width:1; stroke:purple; fill:rgba(140,140,140,1.0);}#rivers27595:hover {stroke-width:1; stroke:red; fill:rgba(0,255,255,1.0);}
-<nl>#rivers26226 {stroke-width:1; stroke:purple; fill:rgba(140,140,140,1.0);}#rivers26226:hover {stroke-width:1; stroke:red; fill:rgba(0,255,255,1.0);}
-<nl>...
+<span style="font-size:0.8em;">
+<nl>#state54 {stroke-width:1; stroke:purple; fill:rgba(195,195,195,1.0);}#state54:hover {stroke-width:1; stroke:purple; fill:rgba(0,255,255,1.0);}  
+<nl>#state12 {stroke-width:1; stroke:purple; fill:rgba(195,195,195,1.0);}#state12:hover {stroke-width:1; stroke:purple; fill:rgba(0,255,255,1.0);}  
+<nl>#state17 {stroke-width:1; stroke:purple; fill:rgba(195,195,195,1.0);}#state17:hover {stroke-width:1; stroke:purple; fill:rgba(0,255,255,1.0);}  
+<nl>#state27 {stroke-width:1; stroke:purple; fill:rgba(195,195,195,1.0);}#state27:hover {stroke-width:1; stroke:purple; fill:rgba(0,255,255,1.0);}  
+<nl>...  
+<nl>#county1001 {stroke-width:1; stroke:purple; fill:rgba(144,190,25,1.0);}#county1001:hover {stroke-width:1; stroke:purple; fill:rgba(0,255,255,1.0);}  
+<nl>#county1003 {stroke-width:1; stroke:purple; fill:rgba(132,199,25,1.0);}#county1003:hover {stroke-width:1; stroke:purple; fill:rgba(0,255,255,1.0);}  
+<nl>#county1005 {stroke-width:1; stroke:purple; fill:rgba(108,218,25,1.0);}#county1005:hover {stroke-width:1; stroke:purple; fill:rgba(0,255,255,1.0);}  
+<nl>#county1007 {stroke-width:1; stroke:purple; fill:rgba(149,185,25,1.0);}#county1007:hover {stroke-width:1; stroke:purple; fill:rgba(0,255,255,1.0);}  
+<nl>...  
+<nl>#lakes30179 {stroke-width:1; stroke:purple; fill:rgba(140,140,140,1.0);}#lakes30179:hover {stroke-width:1; stroke:purple; fill:rgba(0,255,255,1.0);}  
+<nl>#lakes29934 {stroke-width:1; stroke:purple; fill:rgba(140,140,140,1.0);}#lakes29934:hover {stroke-width:1; stroke:purple; fill:rgba(0,255,255,1.0);}  
+<nl>#lakes281073 {stroke-width:1; stroke:purple; fill:rgba(140,140,140,1.0);}#lakes281073:hover {stroke-width:1; stroke:purple; fill:rgba(0,255,255,1.0);}  
+<nl>...  
+<nl>#rivers26838 {stroke-width:1; stroke:purple; fill:rgba(140,140,140,1.0);}#rivers26838:hover {stroke-width:1; stroke:red; fill:rgba(0,255,255,1.0);}  
+<nl>#rivers27595 {stroke-width:1; stroke:purple; fill:rgba(140,140,140,1.0);}#rivers27595:hover {stroke-width:1; stroke:red; fill:rgba(0,255,255,1.0);}  
+<nl>#rivers26226 {stroke-width:1; stroke:purple; fill:rgba(140,140,140,1.0);}#rivers26226:hover {stroke-width:1; stroke:red; fill:rgba(0,255,255,1.0);}  
+<nl>...  
 </span>
 
 
