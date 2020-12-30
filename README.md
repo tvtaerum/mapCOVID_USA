@@ -58,7 +58,7 @@ We will describe:<ol type="1">
 
 |Styles to create Objects and initial properties|
 |----------------------------------------|
-|<img src="/images/stylesToDefineObjects.jpg" width="350" height="200">|
+|<img src="/images/styleToDefineObjects.jpg" width="350" height="200">|
 
 
 |Script to handle Mouse hovering   |
