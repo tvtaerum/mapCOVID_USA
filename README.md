@@ -53,6 +53,41 @@ We will describe:<ol type="1">
 |----------------------------------------|
 |<img src="/images/AZ_zipcode_COVID.jpg" width="350" height="350">|
 
+
+|Script to adjust size to fit information|
+|----------------------------------------|
+|<img src="/images/adjustRectsToFitText.jpg" width="350" height="350">|
+|Class to create one of many Counties   |
+|----------------------------------------|
+|<img src="/images/classToCreateCounty1001.jpg" width="350" height="350">|
+|Class to create one of many Lakes   |
+|----------------------------------------|
+|<img src="/images/classToCreateLake30179.jpg" width="350" height="350">|
+|Class to create State made up of many polygons  |
+|----------------------------------------|
+|<img src="/images/classToCreateMultiPolygon.jpg" width="350" height="350">|
+|Class to create one of many rivers   |
+|----------------------------------------|
+|<img src="/images/classToCreateRiver26838.jpg" width="350" height="350">|
+|Class to create simple State polygon   |
+|----------------------------------------|
+|<img src="/images/classToCreateSimplePolygon.jpg" width="350" height="350">|
+|Function to define arrays   |
+|----------------------------------------|
+|<img src="/images/defineArrays.jpg" width="350" height="350">|
+|Function to handle Mouse hovering   |
+|----------------------------------------|
+|<img src="/images/defineMouseOvers.jpg" width="350" height="350">|
+|Styles to create Objects   |
+|----------------------------------------|
+|<img src="/images/defineObjects.jpg" width="350" height="350">|
+|Function to raise or lower Objects so they can be seen or hidden   |
+|----------------------------------------|
+|<img src="/images/functionsToRaiseOrLowerPolygon.jpg" width="350" height="350">|
+|svg initialization function   |
+|----------------------------------------|
+|<img src="/images/svgInitializeArraysOnLoad.jpg" width="350" height="350">|
+
 ### Motivation for identifying differences between xrays of healthy lungs and those with pneumonia:
 Considerable effort has been applied to building neural nets to discriminate between patients who are healthy and those patients with pneumonia based on x-rays.  An avenue which 
 ### Citations:
