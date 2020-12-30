@@ -70,23 +70,23 @@ We will describe:<ol type="1">
 |----------------------------------------|
 |<img src="/images/adjustRectsToFitText.jpg" width="350" height="325">|
 
-|Class to create one of many Counties   |
+|Sample of Class to create one of many Counties   |
 |----------------------------------------|
 |<img src="/images/classToCreateCounty1001.jpg" width="350" height="100">|
 
-|Class to create one of many Lakes   |
+|Sample of Class to create one of many Lakes   |
 |----------------------------------------|
 |<img src="/images/classToCreateLake30179.jpg" width="350" height="100">|
 
-|Class to create State made up of many polygons  |
+|Sample of Class to create State made up of many polygons  |
 |----------------------------------------|
 |<img src="/images/classToCreateMultiPolygon.jpg" width="350" height="150">|
 
-|Class to create one of many rivers   |
+|Sample of Class to create one of many rivers   |
 |----------------------------------------|
 |<img src="/images/classToCreateRiver26838.jpg" width="350" height="150">|
 
-|Class to create simple State polygon   |
+|Sample of Class to create simple State polygon   |
 |----------------------------------------|
 |<img src="/images/classToCreateSimplePolygon.jpg" width="350" height="100">|
 
