@@ -54,49 +54,54 @@ We will describe:<ol type="1">
 |<img src="/images/AZ_zipcode_COVID.jpg" width="350" height="350">|
 
 
+
+
+|Styles to create Objects and initial properties|
+|----------------------------------------|
+|<img src="/images/scriptToDefineObjects.jpg" width="350" height="200">|
+
+
+|Script to handle Mouse hovering   |
+|----------------------------------------|
+|<img src="/images/scriptToDefineMouseOvers.jpg" width="350" height="100">|
+
+
 |Script to adjust size to fit information|
 |----------------------------------------|
-|<img src="/images/adjustRectsToFitText.jpg" width="350" height="350">|
+|<img src="/images/adjustRectsToFitText.jpg" width="350" height="325">|
 
 |Class to create one of many Counties   |
 |----------------------------------------|
-|<img src="/images/classToCreateCounty1001.jpg" width="350" height="350">|
+|<img src="/images/classToCreateCounty1001.jpg" width="350" height="100">|
 
 |Class to create one of many Lakes   |
 |----------------------------------------|
-|<img src="/images/classToCreateLake30179.jpg" width="350" height="350">|
+|<img src="/images/classToCreateLake30179.jpg" width="350" height="100">|
 
 |Class to create State made up of many polygons  |
 |----------------------------------------|
-|<img src="/images/classToCreateMultiPolygon.jpg" width="350" height="350">|
+|<img src="/images/classToCreateMultiPolygon.jpg" width="350" height="150">|
 
 |Class to create one of many rivers   |
 |----------------------------------------|
-|<img src="/images/classToCreateRiver26838.jpg" width="350" height="350">|
+|<img src="/images/classToCreateRiver26838.jpg" width="350" height="150">|
 
 |Class to create simple State polygon   |
 |----------------------------------------|
-|<img src="/images/classToCreateSimplePolygon.jpg" width="350" height="350">|
+|<img src="/images/classToCreateSimplePolygon.jpg" width="350" height="100">|
 
-|Function to define arrays   |
+|Script to define arrays   |
 |----------------------------------------|
-|<img src="/images/defineArrays.jpg" width="350" height="350">|
+|<img src="/images/scriptToDefineArrays.jpg" width="350" height="100"
 
-|Function to handle Mouse hovering   |
-|----------------------------------------|
-|<img src="/images/defineMouseOvers.jpg" width="350" height="350">|
 
-|Styles to create Objects   |
+|Scripts to raise or lower Objects so they can be seen or hidden   |
 |----------------------------------------|
-|<img src="/images/defineObjects.jpg" width="350" height="350">|
-
-|Function to raise or lower Objects so they can be seen or hidden   |
-|----------------------------------------|
-|<img src="/images/functionsToRaiseOrLowerPolygon.jpg" width="350" height="350">|
+|<img src="/images/scriptsToRaiseOrLowerPolygon.jpg" width="350" height="100">|
 
 |svg initialization function   |
 |----------------------------------------|
-|<img src="/images/svgInitializeArraysOnLoad.jpg" width="350" height="350">|
+|<img src="/images/svgInitializeArraysOnLoad.jpg" width="300" height="30">|
 
 
 ### Motivation for identifying differences between xrays of healthy lungs and those with pneumonia:
