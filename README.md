@@ -60,7 +60,7 @@ We will describe:<ol type="1">
 |<img src="/images/styleToDefineObjects.jpg" width="350" height="200">|
 
 
-<span style="font-size:0.8em;">
+<span style="font-size:0.4em;">
 <nl>#state54 {stroke-width:1; stroke:purple; fill:rgba(195,195,195,1.0);}#state54:hover {stroke-width:1; stroke:purple; fill:rgba(0,255,255,1.0);}  
 <nl>#state12 {stroke-width:1; stroke:purple; fill:rgba(195,195,195,1.0);}#state12:hover {stroke-width:1; stroke:purple; fill:rgba(0,255,255,1.0);}  
 <nl>#state17 {stroke-width:1; stroke:purple; fill:rgba(195,195,195,1.0);}#state17:hover {stroke-width:1; stroke:purple; fill:rgba(0,255,255,1.0);}  
