@@ -56,7 +56,6 @@ We will describe:<ol type="1">
 The first requirement is defining all the objects in the map.  Here we define States, Counties, Lakes and Rivers.  
 When the stream is run and the html file is complete, there are 48 definitions of States, 3107 definitions of Counties, 8 definitions of major Lakes, and 149 definitions of major Rivers.  
 *Refer to the file mapCOVID_USA/files/FRAGMENTS_output_US_edge.html for a text version of these fragments.*  
-
 |Styles to create Objects and initial properties|
 |----------------------------------------|
 |<img src="/images/styleToDefineObjects.jpg" width="600" height="300">|
