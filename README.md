@@ -53,49 +53,69 @@ We will describe:<ol type="1">
 |----------------------------------------|
 |<img src="/images/AZ_zipcode_COVID.jpg" width="350" height="350">|
 
-The first requirement is defining all the objects in the map.  Here we define States, Counties, Lakes and Rivers.  
+**1.** The first requirement is defining all the objects in the map.  Here we define States, Counties, Lakes and Rivers.  
 When the stream is run and the html file is complete, there are 48 definitions of States, 3107 definitions of Counties, 8 definitions of major Lakes, and 149 definitions of major Rivers.  
 *Refer to the file mapCOVID_USA/files/FRAGMENTS_output_US_edge.html for a text version of these fragments.*  
 |Styles to create Objects and initial properties|
 |----------------------------------------|
 |<img src="/images/styleToDefineObjects.jpg" width="600" height="300">|
 
+**2.** The second requirement is defining all the "mouse overs" for 48 States, 3107 Counties, 8 major Lakes, and 149 major Rivers.  
+*Refer to the file mapCOVID_USA/files/FRAGMENTS_output_US_edge.html for a text version of these fragments.*  
 |Script to handle Mouse hovering   |
 |----------------------------------------|
 |<img src="/images/scriptToDefineMouseOvers.jpg" width="600" height="300">|
 
+**3.** The third requirement is putting the 48 definitions of States, 3107 definitions of Counties, 8 definitions of major Lakes, and 149 definitions of major Rivers into an arrray.   
+*Refer to the file mapCOVID_USA/files/FRAGMENTS_output_US_edge.html for a text version of these fragments.*  
 |Script to define arrays   |
 |----------------------------------------|
 |<img src="/images/scriptToDefineArrays.jpg" width="350" height="100"|
 
+**4.** Next, we create a script with resizes labels for mouse hovers.  
+*Refer to the file mapCOVID_USA/files/FRAGMENTS_output_US_edge.html for a text version of these fragments.*  
 |Script to adjust size to fit label and data|
 |----------------------------------------|
 |<img src="/images/adjustRectsToFitText.jpg" width="350" height="325">|
 
+**5.** When the mouse hovers over an object, the browser has to be instructed on which objects move up so they can be seen and which objects get pushed to the bottom so they are hidden.  .  
+*Refer to the file mapCOVID_USA/files/FRAGMENTS_output_US_edge.html for a text version of these fragments.*  
 |Script to raise or lower Objects so they can be seen or hidden   |
 |----------------------------------------|
 |<img src="/images/scriptToRaiseOrLowerPolygon.jpg" width="350" height="100">|
 
+**6.** This small svg simply directs the action of the browser when the HTML file is first brought up.  
+*Refer to the file mapCOVID_USA/files/FRAGMENTS_output_US_edge.html for a text version of these fragments.*  
 |svg initialization function   |
 |----------------------------------------|
 |<img src="/images/svgInitializeArraysOnLoad.jpg" width="300" height="20">|
 
+**7.** The classes for the 48 mainland states are defined here.  Some states require a single polygons to define their edges.  
+*Refer to the file mapCOVID_USA/files/FRAGMENTS_output_US_edge.html for a text version of these fragments.*  
 |Sample of Class to create simple State polygon   |
 |----------------------------------------|
 |<img src="/images/classToCreateSimplePolygon.jpg" width="450" height="200">|
 
+**8.** The classes for the 48 mainland states are defined here.  Some states require multiple polygons to define their edges.  The same strategy is used when defining counties made up of multiple polygons.  
+*Refer to the file mapCOVID_USA/files/FRAGMENTS_output_US_edge.html for a text version of these fragments.*  
 |Sample of Class to create State made up of many polygons  |
 |----------------------------------------|
 |<img src="/images/classToCreateMultiPolygon.jpg" width="450" height="200">|
 
+**9.** The 3107 counties constitute the larges number of objects/scripts/classes required.  
+*Refer to the file mapCOVID_USA/files/FRAGMENTS_output_US_edge.html for a text version of these fragments.*  
 |Sample of Class to create one of many Counties   |
 |----------------------------------------|
 |<img src="/images/classToCreateCounty1001.jpg" width="450" height="200">|
 
+**10.** The 8 major lakes play an important role in defining the edges of counties and states.    
+*Refer to the file mapCOVID_USA/files/FRAGMENTS_output_US_edge.html for a text version of these fragments.*  
 |Sample of Class to create one of many Lakes   |
 |----------------------------------------|
 |<img src="/images/classToCreateLake30179.jpg" width="450" height="200">|
 
+**11.** Last of all, we create the classes for the 149 major rivers in the U.S..  Rivers are paths or segments which are jointed to one another.  
+*Refer to the file mapCOVID_USA/files/FRAGMENTS_output_US_edge.html for a text version of these fragments.*  
 |Sample of Class to create one of many rivers   |
 |----------------------------------------|
 |<img src="/images/classToCreateRiver26838.jpg" width="450" height="250">|
