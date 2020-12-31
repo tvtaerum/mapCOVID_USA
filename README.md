@@ -57,15 +57,15 @@ We will describe:<ol type="1">
 
 |Styles to create Objects and initial properties|
 |----------------------------------------|
-|<img src="/images/styleToDefineObjects.jpg" width="500" height="400">|
+|<img src="/images/styleToDefineObjects.jpg" width="550" height="350">|
 
 |Script to handle Mouse hovering   |
 |----------------------------------------|
-|<img src="/images/scriptToDefineMouseOvers.jpg" width="350" height="100">|
+|<img src="/images/scriptToDefineMouseOvers.jpg" width="550" height="350">|
 
 |Script to define arrays   |
 |----------------------------------------|
-|<img src="/images/scriptToDefineArrays.jpg" width="350" height="100"
+|<img src="/images/scriptToDefineArrays.jpg" width="350" height="100"|
 
 |Script to adjust size to fit label and data|
 |----------------------------------------|
@@ -81,23 +81,23 @@ We will describe:<ol type="1">
 
 |Sample of Class to create simple State polygon   |
 |----------------------------------------|
-|<img src="/images/classToCreateSimplePolygon.jpg" width="350" height="100">|
+|<img src="/images/classToCreateSimplePolygon.jpg" width="450" height="200">|
 
 |Sample of Class to create State made up of many polygons  |
 |----------------------------------------|
-|<img src="/images/classToCreateMultiPolygon.jpg" width="350" height="150">|
+|<img src="/images/classToCreateMultiPolygon.jpg" width="450" height="200">|
 
 |Sample of Class to create one of many Counties   |
 |----------------------------------------|
-|<img src="/images/classToCreateCounty1001.jpg" width="350" height="100">|
+|<img src="/images/classToCreateCounty1001.jpg" width="450" height="200">|
 
 |Sample of Class to create one of many Lakes   |
 |----------------------------------------|
-|<img src="/images/classToCreateLake30179.jpg" width="350" height="100">|
+|<img src="/images/classToCreateLake30179.jpg" width="450" height="200">|
 
 |Sample of Class to create one of many rivers   |
 |----------------------------------------|
-|<img src="/images/classToCreateRiver26838.jpg" width="350" height="150">|
+|<img src="/images/classToCreateRiver26838.jpg" width="450" height="250">|
 
 
 
