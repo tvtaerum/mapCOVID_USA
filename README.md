@@ -57,11 +57,11 @@ We will describe:<ol type="1">
 
 |Styles to create Objects and initial properties|
 |----------------------------------------|
-|<img src="/images/styleToDefineObjects.jpg" width="600" height="400">|
+|<img src="/images/styleToDefineObjects.jpg" width="600" height="350">|
 
 |Script to handle Mouse hovering   |
 |----------------------------------------|
-|<img src="/images/scriptToDefineMouseOvers.jpg" width="550" height="350">|
+|<img src="/images/scriptToDefineMouseOvers.jpg" width="600" height="350">|
 
 |Script to define arrays   |
 |----------------------------------------|
