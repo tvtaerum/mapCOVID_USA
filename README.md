@@ -127,6 +127,8 @@ When the stream is run and the html file is complete, there are 48 definitions o
 ### Citations:
 <dl>
 <dt> Jason Brownlee, How to Develop a Conditional GAN (cGAN) From Scratch,</dt><dd> Available from https://machinelearningmastery.com/how-to-develop-a-conditional-generative-adversarial-network-from-scratch, accessed January 4th, 2020. </dd>
+<dt> Hopkins data </dt><dd> Available from https://coronavirus.jhu.edu/us-map, accessed January 1st, 2021. </dd>
+<dt> 
 </dl>
 
 ### Deliverables:
