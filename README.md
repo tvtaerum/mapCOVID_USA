@@ -54,14 +54,14 @@ We will describe:<ol type="1">
 |<img src="/images/AZ_zipcode_COVID.jpg" width="350" height="350">|
 
 **1.** The first requirement is defining all the objects in the map.  Here we define States, Counties, Lakes and Rivers.  
-When the stream is run and the html file is complete, there are 48 definitions of States, 3107 definitions of Counties, 8 definitions of major Lakes, and 149 definitions of major Rivers.  
+When the stream is run and the html file is complete, there are 48 definitions of States, 3107 definitions of Counties, 8 definitions of major Lakes, and 149 definitions of major Rivers.  There are, in total, 3312 lines of definitions.  
 *Refer to the file mapCOVID_USA/files/FRAGMENTS_output_US_edge.html for a text version of these fragments.*  
 |Styles to create Objects and initial properties|
 |----------------------------------------|
 |<img src="/images/styleToDefineObjects.jpg" width="600" height="300">|
 
-**2.** The second requirement is defining all the "mouse overs" for 48 States, 3107 Counties, 8 major Lakes, and 149 major Rivers.  
-*Refer to the file mapCOVID_USA/files/FRAGMENTS_output_US_edge.html for a text version of these fragments.*  
+**2.** The second requirement is defining all the "mouse overs" for 48 States, 3107 Counties, 8 major Lakes, and 149 major Rivers.  The lines go beyond the end of the screen and are about 470 bytes long.  There are 3312 lines of instruction of what to do when there is a "mouse over".  
+*Refer to the file mapCOVID_USA/files/FRAGMENTS_output_US_edge.html for a complete text version of these fragments.*  
 |Script to handle Mouse hovering   |
 |----------------------------------------|
 |<img src="/images/scriptToDefineMouseOvers.jpg" width="600" height="300">|
@@ -70,7 +70,7 @@ When the stream is run and the html file is complete, there are 48 definitions o
 *Refer to the file mapCOVID_USA/files/FRAGMENTS_output_US_edge.html for a text version of these fragments.*  
 |Script to define arrays   |
 |----------------------------------------|
-|<img src="/images/scriptToDefineArrays.jpg" width="350" height="100"|
+|<img src="/images/scriptToDefineArrays.jpg" width="600" height="300">|
 
 **4.** Next, we create a script with resizes labels for mouse hovers.  
 *Refer to the file mapCOVID_USA/files/FRAGMENTS_output_US_edge.html for a text version of these fragments.*  
