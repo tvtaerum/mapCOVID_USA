@@ -66,7 +66,7 @@ When the stream is run and the html file is complete, there are 48 definitions o
 |----------------------------------------|
 |<img src="/images/scriptToDefineMouseOvers.jpg" width="600" height="300">|
 
-**3.** The third requirement is a script which creates an array of html network locations for 48 States, 3107 Counties, 8 Lakes, and 149 Rivers.  These are used to load the data for each of the object when a mouse hovers over a State, County, Lake or River.  
+**3.** The third requirement is a script which creates an array of html network locations for 48 States, 3107 Counties, 8 Lakes, and 149 Rivers.  These are used to identify which object is being pointed to and load the appropriate data for each State, County, Lake or River.  
 *Refer to the file mapCOVID_USA/files/FRAGMENTS_output_US_edge.html for a text version of these fragments.*  
 |Script to define arrays   |
 |----------------------------------------|
