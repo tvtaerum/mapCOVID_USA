@@ -66,13 +66,13 @@ When the stream is run and the html file is complete, there are 48 definitions o
 |----------------------------------------|
 |<img src="/images/scriptToDefineMouseOvers.jpg" width="600" height="300">|
 
-**3.** The third requirement is putting the 48 definitions of States, 3107 definitions of Counties, 8 definitions of major Lakes, and 149 definitions of major Rivers into an arrray.   
+**3.** The third requirement is a script which creates an array of html network locations for 48 States, 3107 Counties, 8 Lakes, and 149 Rivers.  These are used to load the data for each of the object when a mouse hovers over a State, County, Lake or River.  
 *Refer to the file mapCOVID_USA/files/FRAGMENTS_output_US_edge.html for a text version of these fragments.*  
 |Script to define arrays   |
 |----------------------------------------|
 |<img src="/images/scriptToDefineArrays.jpg" width="600" height="300">|
 
-**4.** Next, we create a script with resizes labels for mouse hovers.  
+**4.** Next, we create a script with resizes labels for mouse hovers.  When a mouse hovers over an object, the program has to move the object to the front in order to be observed.  Other objects are hidden.  Given the data to be displayed, the program has to fit boundaries around the data.  
 *Refer to the file mapCOVID_USA/files/FRAGMENTS_output_US_edge.html for a text version of these fragments.*  
 |Script to adjust size to fit label and data|
 |----------------------------------------|
@@ -90,32 +90,32 @@ When the stream is run and the html file is complete, there are 48 definitions o
 |----------------------------------------|
 |<img src="/images/svgInitializeArraysOnLoad.jpg" width="300" height="20">|
 
-**7.** The classes for the 48 mainland states are defined here.  Some states require a single polygons to define their edges.  
+**7.** The classes for the simple mainland states are defined here.  Some states require a single polygons to define their edges.  The definition of edges for a state can be 57,000 bytes long.  Typically 12 lines of data are required to define a State Class.
 *Refer to the file mapCOVID_USA/files/FRAGMENTS_output_US_edge.html for a text version of these fragments.*  
 |Sample of Class to create simple State polygon   |
 |----------------------------------------|
 |<img src="/images/classToCreateSimplePolygon.jpg" width="450" height="200">|
 
-**8.** The classes for the 48 mainland states are defined here.  Some states require multiple polygons to define their edges.  The same strategy is used when defining counties made up of multiple polygons.  
-*Refer to the file mapCOVID_USA/files/FRAGMENTS_output_US_edge.html for a text version of these fragments.*  
+**8.** The classes for the complex states are defined here.  Some states require multiple polygons to define their edges.  The same strategy is used when defining counties made up of multiple polygons.  The definition of edges for a state can be 57,000 bytes long.  More than 12 lines of data are required to define a complex State Class.
+*Refer to the file mapCOVID_USA/files/FRAGMENTS_output_US_edge.html for a complete text version of a fragment.*  
 |Sample of Class to create State made up of many polygons  |
 |----------------------------------------|
 |<img src="/images/classToCreateMultiPolygon.jpg" width="450" height="200">|
 
-**9.** The 3107 counties constitute the larges number of objects/scripts/classes required.  
-*Refer to the file mapCOVID_USA/files/FRAGMENTS_output_US_edge.html for a text version of these fragments.*  
+**9.** The classes for the 3107 counties are defined here.  The definition of edges for a county can be 57,000 bytes long.  Typically 12 lines of data are required to define a County Class.  
+*Refer to the file mapCOVID_USA/files/FRAGMENTS_output_US_edge.html for a text version of a fragment.*  
 |Sample of Class to create one of many Counties   |
 |----------------------------------------|
 |<img src="/images/classToCreateCounty1001.jpg" width="450" height="200">|
 
-**10.** The 8 major lakes play an important role in defining the edges of counties and states.    
-*Refer to the file mapCOVID_USA/files/FRAGMENTS_output_US_edge.html for a text version of these fragments.*  
+**10.** The 8 major lakes play an important role in defining the edges of counties and states.  The edges of the lakes are defined here.  Typically 12 lines of data are required to define a Lake Class.  
+*Refer to the file mapCOVID_USA/files/FRAGMENTS_output_US_edge.html for a text version of a fragment.*  
 |Sample of Class to create one of many Lakes   |
 |----------------------------------------|
 |<img src="/images/classToCreateLake30179.jpg" width="450" height="200">|
 
-**11.** Last of all, we create the classes for the 149 major rivers in the U.S..  Rivers are paths or segments which are jointed to one another.  
-*Refer to the file mapCOVID_USA/files/FRAGMENTS_output_US_edge.html for a text version of these fragments.*  
+**11.** Last of all, we create the classes for the 149 major rivers in the U.S..  Rivers are paths or segments which are jointed to one another. Multiple lines of data are required to define a River Class.   
+*Refer to the file mapCOVID_USA/files/FRAGMENTS_output_US_edge.html for a text version of a fragment.*  
 |Sample of Class to create one of many rivers   |
 |----------------------------------------|
 |<img src="/images/classToCreateRiver26838.jpg" width="450" height="250">|
