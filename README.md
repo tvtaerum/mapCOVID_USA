@@ -207,6 +207,3 @@ Those folders which are in <b>BOLD</b> need to be created.
 All Python programs must be run from within the "file" directory. 
 
 #### LICENSE  <a href="/LICENSE">MIT license</a>
-# mapCOVID_USA_AZ
- # mapCOVID_USA_AZ
- 
