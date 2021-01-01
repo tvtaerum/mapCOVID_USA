@@ -31,16 +31,16 @@ We will describe:<ol type="1">
 		<li>add additional information about landmarks: https://hub.arcgis.com/datasets/esri::usa-detailed-water-bodies</li>
 		<li>census information: https://data.census.gov/cedsci/all?q=county
 	</ol>
-	<li>how to create your own interactive html file</li>
+	<li>what the interactive html file must look like to work</li>
 	<ol type="a">
 		<li>define objects</li>
 		<li>create mouseOver scripts</li>
 		<li>define getElement scripts</li>
 		<li>define svg positioning scripts</li>
-		<li>define state object polygon shapes and interactions</li>
-		<li>define county object polygon shapes and interactions</li>
-		<li> define lake object polygon shapes and interactions</li>
-		<li> define river path shapes and interactions</li>
+		<li>define state classes for polygon shapes and interactions</li>
+		<li>define county classes for polygon shapes and interactions</li>
+		<li> define lake classes for polygon shapes and interactions</li>
+		<li> define river classes for path shapes and interactions</li>
 	</ol>
 
 	
@@ -123,17 +123,10 @@ When the stream is run and the html file is complete, there are 48 definitions o
 
 
 ### Motivation for identifying differences between xrays of healthy lungs and those with pneumonia:
-Considerable effort has been applied to building neural nets to discriminate between patients who are healthy and those patients with pneumonia based on x-rays.  An avenue which 
+
 ### Citations:
 <dl>
 <dt> Jason Brownlee, How to Develop a Conditional GAN (cGAN) From Scratch,</dt><dd> Available from https://machinelearningmastery.com/how-to-develop-a-conditional-generative-adversarial-network-from-scratch, accessed January 4th, 2020. </dd>
-<dt>Jason Brownlee, How to Explore the GAN Latent Space When Generating Faces, </dt><dd>Available from https://machinelearningmastery.com/how-to-interpolate-and-perform-vector-arithmetic-with-faces-using-a-generative-adversarial-network, accessed January 13th, 2020. </dd>
-<dt>Iván de Paz Centeno, MTCNN face detection implementation for TensorFlow, as a PIP package,</dt><dd> Available from https://github.com/ipazc/mtcnn, accessed February, 2020. </dd>
-<dt>Jeff Heaton, Jeff Heaton's Deep Learning Course,</dt><dd> Available from https://www.heatonresearch.com/course/, accessed February, 2020. </dd>
-<dt>Wojciech Łabuński, X-ray - classification and visualisation</dt>  <dd> Available from 
-https://www.kaggle.com/wojciech1103/x-ray-classification-and-visualisation, accessed March, 2020</dd>
-<dt>Tory Walker, Histogram equalizer, </dt> <dd>Available from 
-https://github.com/torywalker/histogram-equalizer, accessed March, 2020</dd>
 </dl>
 
 ### Deliverables:
@@ -167,43 +160,5 @@ https://github.com/torywalker/histogram-equalizer, accessed March, 2020</dd>
   <li>cGan streams and data sources</li>
 </ol>
 
-
-### 1.  can we generate images of female and male faces by alternating only embeddings:
-
-As we saw in https://github.com/tvtaerum/cGANs_housekeeping, it is possible to both create and vertorize images where male versus female faces can be created simply by selecting a corresponding label/embedding.  
-
-### 2. can we create images which point out the differences between typical female and male faces:
-In making comparisons between female and male faces, there is considerable advantage to the fact the same weights can be used to create a male face and a female face and the only difference is the label/embedding.  
-
-### 3.  can we generate images of x-rays differentiating between healthy lungs and those with bacterial and viral pneumonia based solely on alternating embeddings?
-As we saw in https://github.com/tvtaerum/xray_housekeeping, it is possible to both create and vertorize images where healthy lungs versus viral pneumonia lungs versus bacterial pneumonia lungs can be created simply by selecting a corresponding label/embedding.  
-
-### 4.  can we create images which point out the differences betweeen healthy lungs and those with bacterial and viral pneumonia?
-In making comparisons between healthy lungs and lungs with viral or bacterial pneumonia, there is considerable advantage to the fact that the same weights can be used to create the different images and the only difference is the label/embedding.  
-
-###  5.  cGan streams and data sources:
-The following is an outline of the programming steps and Python code used to create the results observed in this repository.  There are two Python programs which are unique to this repository and five modelling (.h5) files.   
-
-The recommended folder structure looks as follows:
-<ul>
-    <li>embedding_derived_heatmaps-master (or any folder name)</li>
-	<ul>
-	<li> files (also contains two Python programs - program run from here)</li>
-	<ul>
-		<li> <b>celeb</b></li>
-		<ul>
-			<li> <b>label_results</b> (contains five .h5 generator model files)</li>
-		</ul>
-		<li> <b>xray</b></li>
-		<ul>
-			<li> <b>label_results</b> (contains five .h5 generator model files)</li>
-		</ul>
-		<li> <b>cgan</b> (contains images from summary analysis of models)</li>
-	</ul>
-	<li> images (contains images for README file)</li>
-	</ul>
-</ul>
-Those folders which are in <b>BOLD</b> need to be created. 
-All Python programs must be run from within the "file" directory. 
 
 #### LICENSE  <a href="/LICENSE">MIT license</a>
