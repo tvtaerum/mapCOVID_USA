@@ -122,7 +122,7 @@ When the stream is run and the html file is complete, there are 48 definitions o
 
 
 
-### Motivation for identifying differences between xrays of healthy lungs and those with pneumonia:
+### Motivation for creating maps using State, County, Lake and River polygons and paths.  
 
 ### Citations:
 <dl>
@@ -130,9 +130,9 @@ When the stream is run and the html file is complete, there are 48 definitions o
 </dl>
 
 ### Deliverables:
-  1.  description of issues identified and resolved within specified limitations
-  2.  code fragments illustrating the core of how an issue was resolved
-  3.  two Python programs which vectorize face and x-ray images and compare these images producing contrasts
+  1.  two Python programs to create maps for mainland USA based on counties and Arizona based on zip code polygons
+  2.  html fragments illustrating the contents of an html file
+  3.  descriptions of the contents of an html file
 
 ### Limitations and caveates:
 
