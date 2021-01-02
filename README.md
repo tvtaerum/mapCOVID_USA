@@ -13,12 +13,11 @@ There are four sets of information provided:  1. sites where information has bee
 
 ### Challenges and requirements
 
-In order to do investigations on factors associated with COVID-19, you may wish to create maps, whether by county or by zip code.  Ideally you'd like it to be html files and it ought to allow you to hover over the county and get additional information.  This may seem like an easy task.  After all, there are many attractive mapping programs available on the Internet, some are "free", there are a few examples for each of the features you might wish to make use of.  
+In order to do investigations on factors associated with and disease, you may wish to create maps, whether by county or by zip code.  Ideally you'd like it to be html files and it ought to allow you to hover over the county and get additional information.  While there are many attractive mapping programs available on the Internet and some are "free", you may be astonished at how frequently they are wrong or don't work.  
 
-In point of fact, there are few projects more difficult.  Data for counties and zipcodes appear and disappear like ghosts in the night.  A site that was available a week ago is down for service.  Shape files have difficult to find errors in them (you'll be amazed how many are wrong).  The format for files containing COVID-19 data changes depending on the dates, where cases are found and the reporting preferences of each state.  Providers which promise to let you use their code for "free", constantly ask if you'd like to pay.  Code that is supposed to work when you are offline rarely works offline.  Much of the advice provided is out of date.  
+The primary challenge has to do with data disappearing and their formats changing day to day.  A site that was available a week ago is down for service.  Shape files have difficult to find errors in them (and some are wrong).  The format for files containing COVID-19 data changes depending on the dates, where cases are found and the reporting preferences of each state.  Providers which promise to let you use their code for "free", constantly ask if you'd like to pay.  Code that is supposed to work when you are offline rarely works offline.  Some of the advice provided on the Internet for many packages is out of date.  
 
 There are two requirements to consider here:  data sources and output.  The input files require multiple shapefiles (state/county/zip code/lakes/rivers), labels for the shapefiles, COVID-19 data, and demographic information such as population, income, race/ethnic distributions, and age distributions.  The output files require html code, scripts, and svg code.  
-
 
 So what might the required tasks be?  Create shape files for U.S. counties, decorate with detailed informations such as waterbodies, get the latest COVID-19 data, download census information, add additional information about counties, and transform the results to html files.  
 
@@ -123,6 +122,7 @@ When the stream is run and the html file is complete, there are 48 definitions o
 
 
 ### Motivation for creating maps using State, County, Lake and River polygons and paths.  
+As previously indicated, you may wish to develop your own maps for many different reasons including tracking COVID-19.  One advantage of HTML files is you can ZIP the files and then email them to other people and they can examine the results without having to use the Internet.  You can test the veracity of statements made by public officials and draw your own conclusions.  It's important to validate your results against official publications.  
 
 ### Citations:
 <dl>
@@ -139,15 +139,16 @@ When the stream is run and the html file is complete, there are 48 definitions o
 ### Limitations and caveates:
 
   1.  stream:  refers to the overall process of streaming/moving data through input, algorithms, and output of data and its evaluation.
-  2.  convergence:  since there are no unique solutions in GAN, convergence is sufficient when there are no apparent improvements in a subjective evaluation of clarity of images being generated.   
-  3.  limited applicability:  the methods described work for a limited set of data and cGan problems.
-  4.  bounds of model loss:  there is an apparent relationship between mode collapse and model loss - when model loss is extreme (too high or too low) then there is mode collapse.  
+  2.  limited applicability:  the methods described work for a limited set of data.
+  3.  lack of completeness:  the code works for my requirements and no promise is made about its application, usefulness, or accuracy to other applications  
   
 ### Software and hardware requirements:
     - Python version 3.7.3
         - Numpy version 1.17.3
-        - Tensorflow with Keras version 2.0.0
         - Matplotlib version 3.0.3
+	- Pandas version 
+	- geoPandas version
+	- shapely version 
     - Operating system used for development and testing:  Windows 10
 
 #### The process:
