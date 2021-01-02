@@ -154,17 +154,4 @@ As previously indicated, you may wish to develop your own maps for many differen
 	- shapely version 
     - Operating system used for development and testing:  Windows 10
 
-#### The process:
-
- Creating a cGAN as illustration, I provide limited working solutions to the following problems:
-
-<ol type="1">
-  <li>can we generate images of female and male faces based solely on embedding labels</li>
-  <li>can we create images which point out the differences between typical female and male faces</li>
-  <li>can we generate images of x-rays differentiating between healthy lungs and those with bacterial and viral pneumonia</li>
-  <li>can we create images which point out the differneces betweeen healthy lungs and those with bacterial and viral pneumonia</li>
-  <li>cGan streams and data sources</li>
-</ol>
-
-
 #### LICENSE  <a href="/LICENSE">MIT license</a>
