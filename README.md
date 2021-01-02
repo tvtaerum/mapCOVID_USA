@@ -132,6 +132,7 @@ As previously indicated, you may wish to develop your own maps for many differen
 <dt> Hopkins data - used for validation and verification </dt><dd> Available from https://coronavirus.jhu.edu/us-map, last accessed January 1st, 2021. </dd>
 <dt> John Hopkins data download </dt> <dd> Download from https://github.com/CSSEGISandData/COVID-19, last accessed January 1st, 2021. </dd>
 <dt> Lancet Article for any use of data in publication </dt> <dd> https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30120-1/fulltext  </dd>
+<dt> Arizona ZIPcode data </dt><dd>https://www.azcentral.com/in-depth/news/local/arizona-health/2020/03/20/arizona-coronavirus-map-county-county-look-covid-19-cases</dd>
 </dl>
 
 ### Deliverables:
