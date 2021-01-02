@@ -5,7 +5,7 @@ There are four sets of information provided:  1. sites where information has bee
 
 1. We will discuss very little bit about where to get your shapefiles and data.  The reason is because what you can get and where you can get it changes almost daily.
 
-2. Two Python programs are provided with very little documentation.  The programs reads in the data, creates the shape files, colors the shape files and labels them, and generates the HTML file to express the information read in.  Reading the Python programs tells you how it works.
+2. Two Python programs are provided with little documentation.  The programs reads in the data, creates the shape files, colors the shape files and labels them, and generates the HTML file to express the information read in.  Reading the Python programs tells you how it works.
 
 3. Fragments of the HTML file are provided with some description and explanation.
 
@@ -27,8 +27,8 @@ We will describe:<ol type="1">
 	<ol type="a">
 		<li>URL's to lots of geo info that's free:  https://freegisdata.rtwilson.com/</li>
 		<li>Hopkins novel coronavirus data:  https://github.com/CSSEGISandData/COVID-19</li>
-		<li>arcgis map coordinates:  https://www2.census.gov/geo/tiger/TIGER2019/</li>
-		<li>add additional information about landmarks: https://hub.arcgis.com/datasets/esri::usa-detailed-water-bodies</li>
+		<li>some arcgis map coordinates:  https://www2.census.gov/geo/tiger/TIGER2019/</li>
+		<li>additional information about landmarks: https://hub.arcgis.com/datasets/esri::usa-detailed-water-bodies</li>
 		<li>census information: https://data.census.gov/cedsci/all?q=county
 	</ol>
 	<li>what the interactive html file must look like to work</li>
@@ -126,9 +126,9 @@ When the stream is run and the html file is complete, there are 48 definitions o
 
 ### Citations:
 <dl>
-<dt> Jason Brownlee, How to Develop a Conditional GAN (cGAN) From Scratch,</dt><dd> Available from https://machinelearningmastery.com/how-to-develop-a-conditional-generative-adversarial-network-from-scratch, accessed January 4th, 2020. </dd>
-<dt> Hopkins data </dt><dd> Available from https://coronavirus.jhu.edu/us-map, accessed January 1st, 2021. </dd>
-<dt> 
+<dt> Hopkins data - used for validation and verification </dt><dd> Available from https://coronavirus.jhu.edu/us-map, last accessed January 1st, 2021. </dd>
+<dt> John Hopkins data download </dt> <dd> Download from https://github.com/CSSEGISandData/COVID-19, last accessed January 1st, 2021. </dd>
+<dt> Lancet Article for any use of data in publication </dt> <dd> https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30120-1/fulltext  </dd>
 </dl>
 
 ### Deliverables:
