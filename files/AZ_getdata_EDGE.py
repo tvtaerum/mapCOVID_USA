@@ -71,8 +71,8 @@ if qZip:
         # print(">>> strXY: ", strXY)
         return strXY
 
-    def to_polygon(geoType, geometry, scale, x_min, y_max, strID, label, value,strI):
-        # print("\n\nENTERED TO_POLYGON AT: ", strI)
+    def to_geometry(geoType, geometry, scale, x_min, y_max, strID, label, value,strI):
+        # print("\n\nENTERED to_geometry AT: ", strI)
         limit = geometry.bounds
         # print("limit: ", limit)
         strArea = str(int(geometry.area*10)/10.0)
@@ -187,7 +187,7 @@ if qZip:
             strPopl = str(popl[i])
             strDisDens = str(disDens[i])
             strPopDens = str(popDens[i])
-            htmlPoly,htmlRegion, strLimit,strArea = to_polygon(geoType, geometries[i],scale,min_x, max_y, strID, labels[i], values[i],strI)
+            htmlPoly,htmlRegion, strLimit,strArea = to_geometry(geoType, geometries[i],scale,min_x, max_y, strID, labels[i], values[i],strI)
             htmlRegions += htmlRegion
             mouseover = "\""+str(ids[i])
             for ii in range(1,len(lstStems)):
