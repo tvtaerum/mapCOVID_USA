@@ -29,6 +29,7 @@ We will describe:<ol type="1">
 		<li>some arcgis map coordinates:  https://www2.census.gov/geo/tiger/TIGER2019/</li>
 		<li>additional information about landmarks: https://hub.arcgis.com/datasets/esri::usa-detailed-water-bodies</li>
 		<li>census information: https://data.census.gov/cedsci/all?q=county
+		<li>zipcode information:  https://www.azcentral.com/in-depth/news/local/arizona-health/2020/03/20/arizona-coronavirus-map-county-county-look-covid-19-cases</li>
 	</ol>
 	<li>what the interactive html file must look like to work</li>
 	<ol type="a">
